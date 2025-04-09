@@ -1,0 +1,16 @@
+{
+    "name": "replit-google-oauth-plugin",
+    "version": "1.0.0",
+    "description": "Google OAuth2 authentication plugin for Replit",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "cookie-parser": "^1.4.6",
+        "dotenv": "^16.4.7",
+        "express": "^4.18.2",
+        "googleapis": "^105.0.0",
+        "jsonwebtoken": "^9.0.0"
+    }
+}
